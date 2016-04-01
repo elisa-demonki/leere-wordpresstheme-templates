@@ -12,15 +12,15 @@ Text Domain:
 */
 
 * {
-  margin:0;
+    margin:0;
 }
 
 body {
-  font-family:monospace;
+    font-family:monospace;
 }
 
 .entry{    
-  	max-width: 50em;
+    max-width: 50em;
     margin: 3em auto;
     background: yellow;
     padding: 3em;
