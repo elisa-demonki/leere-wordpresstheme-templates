@@ -18,3 +18,15 @@ Text Domain:
 body {
   font-family:monospace;
 }
+
+.entry{    
+  	max-width: 50em;
+    margin: 3em auto;
+    background: yellow;
+    padding: 3em;
+}
+
+.entry img  {
+    width: 100%;
+    height: auto;
+}
