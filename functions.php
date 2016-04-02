@@ -7,6 +7,8 @@
 
 // CSS DATEIEN
 // ------------------------------- 
+// Info: https://developer.wordpress.org/reference/functions/wp_enqueue_script/
+
 function hole_die_css_files() 
 { 
 // CSS des Themes
