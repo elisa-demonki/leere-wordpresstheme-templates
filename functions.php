@@ -7,7 +7,7 @@
 
 // CSS DATEIEN
 // ------------------------------- 
-function hole_die_css_dateien_in_den_header() 
+function hole_die_css_files() 
 { 
 // CSS des Themes
 wp_enqueue_style( 'style', get_template_directory_uri() . '/style.css' );
@@ -15,7 +15,7 @@ wp_enqueue_style( 'style', get_template_directory_uri() . '/style.css' );
 add_editor_style( 'editor-style.css' );
 }
 
-add_action('wp_enqueue_scripts', 'hole_die_css_dateien_in_den_header');
+add_action('wp_enqueue_scripts', 'hole_die_css_files');
 
 
 ?>
