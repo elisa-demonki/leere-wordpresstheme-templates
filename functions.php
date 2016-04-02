@@ -7,7 +7,7 @@
  */
 
 
-// CSS das Themes
+// CSS fuer das Themes
 // ------------------------------- 
 // Info: https://developer.wordpress.org/reference/functions/wp_enqueue_script/
 
