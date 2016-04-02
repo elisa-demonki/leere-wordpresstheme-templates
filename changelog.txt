@@ -1,6 +1,7 @@
 14.03.2016 
-            leere Templates erstellt
++ leere Templates erstellt
 01.04.2016 
-            single.php, page.php, search.php, archive.php gelöscht
-            Loop in die index.php hinzugefügt
-            style.css und functions.php aufgefrischt, so dass das leere Theme installiert werden kann
++ einige Template (darunter auch single.php, page.php, search.php, archive.php) wieder gelöscht
++ Loop in die index.php hinzugefügt
++ style.css und functions.php aufgefrischt, so dass das leere Theme installiert werden kann
++ die beiden Haupt-Hooks in die header.php und footer.php hinzugefügt, so dass sich die style.css und die Adminbar andocken kann
