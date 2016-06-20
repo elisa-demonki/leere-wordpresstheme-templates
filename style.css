@@ -1,24 +1,192 @@
 /*
 Theme Name: Leeres Theme
 Theme URI:
-Author:
+Author: Elisa Demonkí
 Author URI:
 Description:
-Version: 0.1
-Tags:
+Version: 0.1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain:
+Tags:
 */
 
-/* Mini-Normalizer */
+/* ----------------------------------------------
+   INHALTSVERZEICHNIS
+   ---------------------------------------------- 
+  
+    Normalize
+    Accessibility
+    Alignments
+    Clearings
+    Typography
+    Forms
+    Buttons
+    Formatting
+    Lists
+    Tables
+    Navigation
+    Links
+    Layout
+	Layout > Posts
+	Layout > Pages
+    Comments
+    Widgets
+    Infinite scroll
+    Media
+	Media > Galleries
+   ---------------------------------------------- */
+   
+/* ----------------------------------------------
+   Normalize
+   ---------------------------------------------- */   
+
+/* Mini-Normalizer 
+   ---------------------------------------------- */
+   
 * {
     margin:0;
 }
 
-body {
-    font-family:monospace;
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
 }
 
+body {
+    margin: 0
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+
+/*--------------------------------------------------------------
+# Alignments
+--------------------------------------------------------------*/
+.alignleft {
+  display: inline;
+  float: left;
+  margin-right: 1.5em;
+}
+
+.alignright {
+  display: inline;
+  float: right;
+  margin-left: 1.5em;
+}
+
+.aligncenter {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*--------------------------------------------------------------
+# Clearings
+--------------------------------------------------------------*/
+.clear:before,
+.clear:after,
+.entry-content:before,
+.entry-content:after,
+.comment-content:before,
+.comment-content:after,
+.site-header:before,
+.site-header:after,
+.site-content:before,
+.site-content:after,
+.site-footer:before,
+.site-footer:after {
+  content: "";
+  display: table;
+  table-layout: fixed;
+}
+
+.clear:after,
+.entry-content:after,
+.comment-content:after,
+.site-header:after,
+.site-content:after,
+.site-footer:after {
+  clear: both;
+}
+
+/* ----------------------------------------------
+   Typografie
+   ---------------------------------------------- */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+/* ----------------------------------------------
+   Links
+   ---------------------------------------------- */
+   
+/* Normalisieren */ 
+
+a {
+  background-color: transparent;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* ----------------------------------------------
+   Layout
+   ---------------------------------------------- */
+   
 /* Artikel mittig platzieren */
+
 .entry {    
     max-width: 50em;
     margin: 3em auto;
@@ -36,4 +204,47 @@ body {
 .entry img, 
 .entry iframe {
     padding: 1em 0;
+}
+
+/* ----------------------------------------------
+   Galleries
+   ---------------------------------------------- */
+   
+.gallery {
+  margin-bottom: 1.5em;
+}
+
+.gallery-item {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  width: 100%;
+}
+.gallery-columns-2 .gallery-item {
+  max-width: 50%;
+}
+.gallery-columns-3 .gallery-item {
+  max-width: 33.33%;
+}
+.gallery-columns-4 .gallery-item {
+  max-width: 25%;
+}
+.gallery-columns-5 .gallery-item {
+  max-width: 20%;
+}
+.gallery-columns-6 .gallery-item {
+  max-width: 16.66%;
+}
+.gallery-columns-7 .gallery-item {
+  max-width: 14.28%;
+}
+.gallery-columns-8 .gallery-item {
+  max-width: 12.5%;
+}
+.gallery-columns-9 .gallery-item {
+  max-width: 11.11%;
+}
+
+.gallery-caption {
+  display: block;
 }
