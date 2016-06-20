@@ -1,26 +1,26 @@
-/*
-Theme Name: Leeres Theme
-Theme URI:
-Author: Elisa Demonkí
-Author URI:
-Description:
-Version: 0.1.0
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain:
-Tags:
-*/
-
-/* ----------------------------------------------
-   INHALTSVERZEICHNIS
-   ---------------------------------------------- 
-  
-    Normalize
-    Accessibility
-    Alignments
-    Clearings
-    Typography
-    Forms
+/* 
+    Theme Name: Leeres Theme
+    Theme URI:
+    Author: Elisa Demonkí
+    Author URI:
+    Description:
+    Version: 0.1.0
+    License: GNU General Public License v2 or later
+    License URI: http://www.gnu.org/licenses/gpl-2.0.html
+    Text Domain:
+    Tags:
+    
+    
+   ----------------------------------------------
+   Inhaltsverzeichnis
+   ----------------------------------------------
+   
+    Normalize--------------------------------- 40
+    Accessibility-----------------------------
+    Alignments--------------------------------
+    Clearings---------------------------------
+    Typography--------------------------------
+    Forms-------------------------------------
     Buttons
     Formatting
     Lists
@@ -28,22 +28,18 @@ Tags:
     Navigation
     Links
     Layout
-	Layout > Posts
-	Layout > Pages
+        Posts
+        Pages
     Comments
     Widgets
     Infinite scroll
     Media
-	Media > Galleries
-   ---------------------------------------------- */
-   
-/* ----------------------------------------------
-   Normalize
+        Galleries
+	
+   ----------------------------------------------
+    Normalize
    ---------------------------------------------- */   
 
-/* Mini-Normalizer 
-   ---------------------------------------------- */
-   
 * {
     margin:0;
 }
@@ -81,10 +77,10 @@ video {
   vertical-align: baseline;
 }
 
-
-/*--------------------------------------------------------------
-# Alignments
---------------------------------------------------------------*/
+/* ----------------------------------------------
+   Alignments
+   ---------------------------------------------- */
+   
 .alignleft {
   display: inline;
   float: left;
@@ -104,9 +100,10 @@ video {
   margin-right: auto;
 }
 
-/*--------------------------------------------------------------
-# Clearings
---------------------------------------------------------------*/
+/* ----------------------------------------------
+   Clearings
+   ---------------------------------------------- */
+   
 .clear:before,
 .clear:after,
 .entry-content:before,
@@ -136,6 +133,7 @@ video {
 /* ----------------------------------------------
    Typografie
    ---------------------------------------------- */
+   
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -186,7 +184,6 @@ a:hover {
    ---------------------------------------------- */
    
 /* Artikel mittig platzieren */
-
 .entry {    
     max-width: 50em;
     margin: 3em auto;
@@ -194,13 +191,13 @@ a:hover {
     padding: 3em;
 }
 
-/* Bild füllend im Artikel darstellen */
+/* Bild fuellend im Artikel darstellen */
 .entry img  {
     width: 100%;
     height: auto;
 }
 
-/* Abstand bei Bildern und iFrames */
+/* Abstand bei Bildern und iframes */
 .entry img, 
 .entry iframe {
     padding: 1em 0;
