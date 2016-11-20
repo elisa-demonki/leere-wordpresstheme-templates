@@ -32,4 +32,10 @@ function hole_die_editor_minus_style_punkt_css() {
 
 add_action( 'admin_init', 'hole_die_editor_minus_style_punkt_css' );
 
+
+
+// Beitragsformate Zitat und Bild
+// ------------------------------- 
+add_theme_support( 'post-formats', array( 'quote', 'image' ) );
+
 ?>
