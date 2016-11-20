@@ -15,26 +15,26 @@
    Inhaltsverzeichnis
    ----------------------------------------------
    
-    Normalize--------------------------------- 40
+    Normalize---------------------------------
     Accessibility-----------------------------
     Alignments--------------------------------
     Clearings---------------------------------
     Typography--------------------------------
     Forms-------------------------------------
-    Buttons
-    Formatting
-    Lists
-    Tables
-    Navigation
-    Links
-    Layout
-        Posts
-        Pages
-    Comments
-    Widgets
-    Infinite scroll
-    Media
-        Galleries
+    Buttons-----------------------------------
+    Formatting--------------------------------
+    Lists-------------------------------------
+    Tables------------------------------------
+    Navigation--------------------------------
+    Links-------------------------------------
+    Layout------------------------------------
+        Posts---------------------------------
+        Pages---------------------------------
+    Comments----------------------------------
+    Widgets-----------------------------------
+    Infinite scroll---------------------------
+    Media-------------------------------------
+        Galleries-----------------------------
 	
    ----------------------------------------------
     Normalize
@@ -184,22 +184,26 @@ a:hover {
    ---------------------------------------------- */
    
 /* Artikel mittig platzieren */
-.entry {    
+.post, .single {    
     max-width: 50em;
     margin: 3em auto;
-    background: yellow;
     padding: 3em;
 }
 
+/* Zitat */
+.format-quote {    
+    background: yellow;
+}
+
 /* Bild fuellend im Artikel darstellen */
-.entry img  {
+.post img  {
     width: 100%;
     height: auto;
 }
 
 /* Abstand bei Bildern und iframes */
-.entry img, 
-.entry iframe {
+.post img, 
+.post iframe {
     padding: 1em 0;
 }
 
