@@ -1,1 +1,4 @@
-@import url( 'style.css' );
+/* @import url( 'style.css' ); */
+* {
+  font-family: sans-serif;
+}
