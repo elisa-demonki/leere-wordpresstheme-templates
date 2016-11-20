@@ -1,13 +1,9 @@
 <?php get_header(); ?>
 
-<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+<?php while ( have_posts() ) : the_post(); ?>
 
-  <div class="entry">
-    <?php the_content(); ?>
-  </div>
+<?php get_template_part( 'content', get_post_format() ); ?>
 
-<?php endwhile; else : ?>
-  <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
-<?php endif; ?>
+<?php endwhile; ?>
 
 <?php get_footer(); ?>
